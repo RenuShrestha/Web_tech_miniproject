@@ -53,6 +53,15 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
+let input = document.querySelector("input");
+  input.addEventListener("submit", (event) => 
+  {
+    event.preventDefault();
+  })
+
+function Submission(){
+  alert("Your Form has been submitted.");
+}
 
 
 
